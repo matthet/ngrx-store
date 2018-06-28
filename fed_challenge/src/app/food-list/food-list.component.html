@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <table class="table-striped">
+            <thead>
+                <tr>
+                    <td>
+                        <p>Food</p>
+                    </td>
+                    <td>
+                        <p>Rating</p>
+                    </td>
+                </tr>
+            </thead>
+
+            <tr *ngFor="let food of foods">
+                <td class="col-sm-1">
+                    {{food.title}}
+                </td>
+                <td align="right">
+                    <div class="row">
+                        <div class=col-sm-6>
+                            <select [(ngModel)]="food.rating" (change)="rateFood(food)">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-sm-3"></div>
+</div>

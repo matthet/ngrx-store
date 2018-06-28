@@ -1,0 +1,54 @@
+{
+  "foods": [
+    {
+      "title": "Massaman Curry",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "title": "Seafood Pasta",
+      "rating": 3,
+      "id": 2
+    },
+    {
+      "title": "Paella",
+      "rating": 2,
+      "id": 3
+    },
+    {
+      "title": "Pho",
+      "rating": 1,
+      "id": 4
+    },
+    {
+      "title": "Sushi",
+      "rating": 4,
+      "id": 5
+    },
+    {
+      "title": "French Toast",
+      "rating": 1,
+      "id": 6
+    },
+    {
+      "title": "Burrito",
+      "rating": 3,
+      "id": 7
+    },
+    {
+      "title": "Dim Sum",
+      "rating": 2,
+      "id": 8
+    },
+    {
+      "title": "Hamburger",
+      "rating": 4,
+      "id": 9
+    },
+    {
+      "title": "Irish Stew",
+      "rating": 1,
+      "id": 10
+    }
+  ]
+}
